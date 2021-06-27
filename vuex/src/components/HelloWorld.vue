@@ -12,14 +12,6 @@ export default {
     msg: String,
   },
   methods: {
-    // increment() {
-    //   this.$store.commit("incrementAction");
-    // },
-    // addCount() {
-    //   this.$store.commit("addCountAction", {
-    //     value: 10,
-    //   });
-    // },
     increment() {
       this.$store.dispatch("incrementAction");
     },
